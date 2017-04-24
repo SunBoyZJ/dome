@@ -1,0 +1,288 @@
+.content_top {
+	width: 100%;
+	height: 180px;
+	min-width: 1300px;
+	height: 182px;
+	background: #FE6546;
+	border-bottom: 1px double #C7796C;
+	text-align: center;
+	position: relative;
+}
+
+.content_top p {
+	font-size: 30px;
+	font-family: simhei;
+	color: white;
+	padding-top: 50px;
+}
+
+.content_top div {
+	width: 1000px;
+	height: 50px;
+	position: absolute;
+	background: white;
+	bottom: 0;
+	left: 50%;
+	margin-left: -500px;
+}
+
+.content_top div ul {
+	margin-left: -30px;
+}
+
+.content_top div ul li {
+	font-size: 15px;
+	font-family: "agency fb";
+	float: left;
+	margin-top: 15px;
+	border-left: 5px dashed #FE6546;
+}
+
+.content_right {
+	width: 110px;
+	height: 210px;
+	background: #FE9174;
+	border-radius: 5%;
+	position: relative;
+	float: right;
+	margin-top: 60px;
+}
+
+.content_right span div {
+	display: inline-block;
+}
+
+.content_right span div {
+	width: 37px;
+	height: 30px;
+	background: url(../img/ico-lest.png);
+	background-position: 2px 1245px;
+	float: left;
+	margin-top: 5px;
+}
+
+.content_right span p {
+	display: inline-block;
+	margin-top: 12px;
+	font-size: 13px;
+	color: white;
+}
+
+.content_right span {
+	position: absolute;
+	left: 50%;
+	margin-left: -35px;
+	margin-top: 10px;
+}
+
+.content_right span:nth-of-type(2) {
+	margin-top: 60px;
+	margin-left: -30px;
+}
+
+.content_right span:nth-of-type(2) div {
+	width: 30px;
+	height: 25px;
+	background-position: 0 1566px;
+}
+
+.content_right>div {
+	width: 102px;
+	height: 121px;
+	position: absolute;
+	top: 100px;
+	text-align: center;
+	left: 10px;
+	color: white;
+	font-size: 13px;
+}
+
+.content_right>div p {
+	margin-left: -10px;
+	color: white;
+	font-size: 13px;
+}
+
+.content_right>div>div {
+	width: 90px;
+	height: 90px;
+	background: white;
+	border-radius: 5%;
+	position: relative;
+}
+
+.content_right>div>div>div {
+	width: 80px;
+	height: 80px;
+	background: url(../img/saomiao.png);
+	background-size: 100%;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+.content_kf {
+	width: 1300px;
+	height: 1000px;
+	margin: -30px auto;
+}
+
+.content {
+	width: 1000px;
+	height: 950px;
+	background: white;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.content>ul li {
+	width: 920px;
+	height: 120px;
+	background: white;
+	border: 1px solid #EDEEF0;
+	margin-top: 30px;
+}
+
+.content>ul li>div:nth-of-type(1) {
+	width: 505px;
+	height: 110px;
+	margin-top: 7px;
+	margin-left: 20px;
+	display: inline-block;
+	position: relative;
+}
+
+
+/*ul统一样式*/
+
+.content>ul li>div:nth-of-type(1) div {
+	width: 99px;
+	height: 95px;
+	display: inline-block;
+	background: url(../img/1_03.png);
+	background-size: 100% 100%;
+	margin-top: 5px;
+}
+
+.content>ul li:nth-of-type(2)>div div {
+	background: url(../img/1_05.png);
+	background-size: 100% 100%;
+}
+
+.content>ul li:nth-of-type(3)>div div {
+	background: url(../img/1_07.png);
+	background-size: 100% 100%;
+}
+
+.content>ul li:nth-of-type(4)>div div {
+	background: url(../img/1_09.png);
+	background-size: 100% 100%;
+}
+
+.content>ul li:nth-of-type(5)>div div {
+	background: url(../img/1_11.jpg);
+	background-size: 100% 100%;
+}
+
+.content>ul li>div:nth-of-type(1) p {
+	display: inline-block;
+	position: absolute;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+
+.content>ul li>div:nth-of-type(1) p:nth-of-type(1) {
+	top: 45px;
+	left: 150px;
+}
+
+.content>ul li>div:nth-of-type(1) p:nth-of-type(2) {
+	top: 45px;
+	right: 105px;
+	color: #D2746C;
+}
+
+.content>ul li div:nth-of-type(2) {
+	float: right;
+	margin-top: 50px;
+	margin-right: 15px;
+	position: relative;
+}
+
+.content>ul li div:nth-of-type(2) a {
+	color: black;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: #EDEEF2;
+	text-align: center;
+	line-height: 25px;
+}
+
+.content>ul li div:nth-of-type(2) a:nth-of-type(1) {
+	position: absolute;
+	right: 55px;
+}
+
+.content>ul li div:nth-of-type(2) a:nth-of-type(2) {
+	position: absolute;
+	right: 0px;
+}
+
+.content>ul li div:nth-of-type(2) input {
+	position: absolute;
+	border: none;
+	border-top: 1px double white;
+	width: 25px;
+	height: 23px;
+	background: #EDEEF2;
+	top: -1px;
+	right: 28px;
+}
+
+.content>ul li div:nth-of-type(2) a p {
+	font-size: 17px;
+	display: inline-block;
+}
+
+.content>span {
+	display: inline-block;
+	bottom: 0;
+	right: 0;
+	font-size: 12px;
+	line-height: 60px;
+	position: relative;
+	float: right;
+	margin-right: 37px;
+	margin-top: 68px;
+}
+
+.content>span div {
+	width: 110px;
+	height: 32px;
+	background: url(../img/manjian.png);
+	position: absolute;
+	top: -23px;
+	left: 105px;
+}
+
+.content>span b {
+	color: #FE6546;
+}
+
+.content>span b:nth-of-type(2) {
+	font-size: 25px;
+	font-family: "微软雅黑";
+}
+
+.content>span a {
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	background: #FF6446;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	line-height: 33px;
+	margin-left: 15px;
+}

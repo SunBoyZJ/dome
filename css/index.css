@@ -1,0 +1,494 @@
+.body
+{
+	background: #F6F6F6;
+}
+.top_div>ul li:nth-child(1)
+{
+	border-bottom:1px double #FE6546;
+}
+.bj_div
+{
+	width: 100%;
+	min-width: 1300px;
+	height: 400px;
+	background: url(../img/topindex.png) center;
+}
+.content
+{
+	width: 1300px;
+	height: 2570px;
+	margin: auto;
+	position: relative;
+}
+.content_top
+{
+	width: 100%;
+	min-width: 1300px;
+	height: 85px;
+	background: #FFFFFF;
+	position: relative;
+	border-bottom:1px double #E8E8E8 ;
+}
+.content_top ul
+{
+  position: absolute;
+  left: 50%;
+  margin-left: -500px;
+}
+.content_top>ul>li div
+{
+	width: 65px;
+	height: 75px;
+	background: url(../img/div_bot.png);
+	float: left;
+}
+.content_top  ul li:nth-child(2) div
+{
+	background-position:0px 141px;
+}
+.content_top ul li:nth-child(3) div
+{
+	background-position:-5px 210px;
+}
+.content_top  ul li:nth-child(4) div
+{
+	background-position:0px 69px;
+}
+.content_top ul li
+{
+	float: left;
+	width: 250px;
+	line-height: 68px;
+	margin-top: 7px;
+}
+.content_top ul li span
+{
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+
+.content_left
+{
+	width: 110px;
+	height: 210px;
+	background: #FE9174;
+	margin-top: 30px;
+	border-radius:5% ;
+	position: relative;
+	float: left;
+
+}
+.content_left ul
+{
+	position: absolute;
+	width: 113px;
+	top: -1px;
+			
+}
+.content_left ul li
+{
+	width: 110px;
+	height: 30px;
+	font-family: "微软雅黑";
+	color: white;
+	margin-top: 5px;
+	margin-left: -40px;
+	line-height: 28px;
+	border-radius:5% ;
+}
+.content_left ul li:nth-child(6)
+{
+	width: 110px;
+	height: 31px;
+	border-bottom-right-radius:16%;
+	border-bottom-left-radius:16% ;
+}
+.content_left ul li span
+{
+	margin-left: 8px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.content_left ul li:hover
+{
+	background: #FEB08C;
+	cursor: pointer;
+}
+.content_left ul li:nth-child(1):hover 
+{
+	background:none;
+	cursor: default;
+}
+/*中间*/
+.content_center
+{
+	width: 1000px;
+	height: 2462px;
+	position: absolute;
+	left: 50%;
+	margin-left: -500px;
+	margin-top: 30px;
+}
+/*中左边*/
+.content_center_left
+{
+	width:241px;
+	height: 2400px;
+	float: left;
+}
+.content_center_left>p
+{
+	display: inline-block;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+.content_center_left_1
+{
+	width: 241px;
+	height: 300px;
+	background: url(../img/index-left1.png);
+	margin-top: 5px;
+}
+.content_center_left p:nth-of-type(2)
+{
+	margin-top: 30px;
+}
+.content_center_left_2
+{
+	width: 241px;
+	height: 631px;
+	background: url(../img/index-left2.png);
+	margin-top: 5px;
+}
+.content_center_left p:nth-of-type(3)
+{
+	margin-top: 30px;
+}
+.content_center_left_3
+{
+	width: 241px;
+	height: 300px;
+	background: url(../img/index-left3.png);
+	margin-top: 5px;
+}
+.content_center_left p:nth-of-type(4)
+{
+	margin-top: 30px;
+}
+.content_center_left_4
+{
+	width: 241px;
+	height: 631px;
+	background: url(../img/index-left4.png);
+	margin-top: 5px;
+}
+.content_center_left p:nth-of-type(5)
+{
+	margin-top: 30px;
+}
+.content_center_left_5
+{
+	width: 241px;
+	height: 300px;
+	background: url(../img/index-left5.png);
+	margin-top: 5px;
+}
+
+
+
+/*中右*/
+.content_center_right
+{
+	width: 750px;
+	height: 2400px;
+	float: right;
+}
+.content_center_right ul 
+{
+	width: 710px;
+	height: 300px;
+	margin-top: 27px;
+}
+/*整体样式*/
+.content_center_right ul li
+{
+	width: 241px;
+	height: 300px;
+	float: left;
+	margin-left: 13px;
+	background: white;
+	text-align: center;
+	transition: 0.3s;
+}
+.content_center_right ul li:hover
+{
+	box-shadow: 0 2px 2px 2px rgba(0,0,0,0.3);
+	transform: translateY(-5px);
+}
+.content_center_right ul li p
+{
+	font-family: "microsoft JhengHei";
+	font-size:14px ;
+	font-weight: bold;
+}
+.content_center_right ul li p:nth-of-type(1)
+{
+	margin-top: 15px;	
+}
+.content_center_right ul li p:nth-of-type(2)
+{
+	margin-top: 5px;
+	color:#F28D83;
+}
+.content_center_right ul li p:nth-of-type(2) span
+{
+	color: #D5DDE0;
+	font-size:12px ;
+	text-decoration: line-through;
+}
+
+.content_center_right ul li:nth-child(1)
+{
+	margin-left: -40px;
+}
+/*第1DIV图片*/
+.content_center_right ul:nth-of-type(1) li div
+{
+	width: 241px;
+	height: 225px;
+	background: url(../img/index-ceter.png);
+}
+/*第二 ul*/
+.content_center_right ul:nth-of-type(2) li div
+{
+	width: 241px;
+	height: 225px;
+	background: url(../img/index-ceter.png);
+}
+.content_center_right ul:nth-of-type(2) li:nth-child(4)
+{
+	margin-left: -40px;
+}
+.content_center_right ul:nth-of-type(2)
+{
+	width: 710px;
+	height: 660px;
+}
+.content_center_right ul:nth-of-type(2) li
+{
+	margin-top: 30px;
+}
+/*第三UL*/
+.content_center_right ul:nth-of-type(3)
+{
+	margin-top: 55px;
+}
+.content_center_right ul:nth-of-type(3) li div
+{
+	width: 241px;
+	height: 225px;
+	background: url(../img/index-center-iphone6.png);
+}
+
+/*第四UL*/
+.content_center_right ul:nth-of-type(4) li:nth-child(4)
+{
+	margin-left: -40px;
+}
+.content_center_right ul:nth-of-type(4)
+{
+	width: 710px;
+	height: 660px;
+}
+.content_center_right ul:nth-of-type(4) li
+{
+	margin-top: 30px;
+}
+.content_center_right ul:nth-of-type(4) li div
+{
+	width: 241px;
+	height: 225px;
+	background: url(../img/index-center-6bai.png);
+}
+.content_center_right ul:nth-of-type(4) li:nth-of-type(1) div
+{
+	background: url(../img/index-center-iphone6.png);
+}
+.content_center_right ul:nth-of-type(4) li:nth-of-type(3) div
+{
+	background: url(../img/index-center-iphone6.png);
+}
+/*第5UL*/
+.content_center_right ul:nth-of-type(5)
+{
+	margin-top: 55px;
+}
+.content_center_right ul:nth-of-type(5) li div
+{
+	width: 241px;
+	height: 225px;
+	background: url(../img/index-iphone5.png);
+	float: left;
+}
+.content_center_right ul:nth-of-type(5) li:nth-of-type(1) div
+{
+	background: url(../img/index-iphone.png);
+}
+.content_center_right ul:nth-of-type(5) li:nth-of-type(3) div:nth-of-type(2)
+{
+	position: absolute;
+	width: 241px;
+	height: 300px;
+	background: rgba(0,0,0,0.6);
+}
+.content_center_right ul:nth-of-type(5) li:nth-of-type(3) div:nth-of-type(2) p
+{
+	font-size: 19px;
+	color: white;
+	margin:121px auto;
+}
+
+/*中间右部*/
+.content_right
+{
+	width: 110px;
+	height: 210px;
+	background: #FE9174;
+	margin-top: 30px;
+	border-radius:5% ;
+	position: relative;
+	float: right;
+	
+}
+.content_right span div
+{
+	display: inline-block;
+}
+.content_right span div
+{
+	width: 37px;
+	height: 30px;
+	background: url(../img/ico-lest.png);
+	background-position: 2px 1245px;
+	float: left;
+	margin-top: 5px;
+}
+.content_right span p
+{
+	display: inline-block;
+	margin-top: 12px;
+	font-size:13px ;
+	color: white;
+}
+.content_right span 
+{
+	position: absolute;
+	left: 50%;
+	margin-left: -35px;
+	margin-top: 10px;
+}
+.content_right span:nth-of-type(2)
+{
+	margin-top: 60px;
+	margin-left: -30px;
+}
+.content_right span:nth-of-type(2) div
+{
+	width: 30px;
+	height: 25px;
+	background-position:0 1566px;
+}
+.content_right>div
+{
+	width: 102px;
+	height: 121px;
+	position: absolute;
+	top: 100px;
+	text-align: center;
+	left: 10px;
+	color: white;
+	font-size:13px ;
+}
+.content_right>div p
+{
+	margin-left: -10px;
+	color: white;
+	font-size:13px ;
+}
+.content_right>div>div
+{
+	width: 90px;
+	height: 90px;
+	background: white;
+	border-radius:5% ;
+	position: relative;
+}
+.content_right>div>div>div
+{
+	width: 80px;
+	height: 80px;
+	background: url(../img/saomiao.png);
+	background-size:100% ;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+/*中间底部*/
+.content_center_bott
+{
+	width: 998px;
+	height: 36px;
+	border: 1px double #D47561;
+	background: #FE6546;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+.content_center_bott p
+{
+	font-family: "微软雅黑";
+	color: white;
+	line-height: 36px;
+}
+/*更多统一样式*/
+.content_center_right>span
+{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+.content_center_right>span p
+{
+	display: inline-block;
+	font-size: 12px;
+	color: #AFB8BD;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+.content_center_right>span div
+{
+	width: 30px;
+	height: 21px;
+	float: right;
+	background:url(../img/ico-lest.png);
+	background-position:0 1502px;	
+}
+.content_center_right span:nth-of-type(2)
+{
+	margin-top: 28px;
+}
+.content_center_right span:nth-of-type(3)
+{
+	margin-top: 28px;
+}
+.content_center_right span:nth-of-type(4)
+{
+	margin-top: 28px;
+}
+.content_center_right span:nth-of-type(5)
+{
+	margin-top: 28px;
+}
